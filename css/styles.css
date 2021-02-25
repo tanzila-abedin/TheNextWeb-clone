@@ -254,6 +254,107 @@ hr {
   color: #aaa;
   font-size: 0.8rem;
 }
+/* Categories */
+
+.categories {
+  display: flex;
+  flex-direction: column; 
+}
+
+.cat-item {
+ padding: 0 10px;
+ position: relative;
+ height: 43rem;
+}
+
+.cat-gradient {
+
+}
+
+.cat-heading a {
+  color:#f00;
+}
+
+.cat-img-box img{
+  width: 100%;
+  height: 20rem;
+  padding-bottom: 0;
+}
+
+.cat-img-box h4 {
+  font-size: 0.95rem;
+  color: black;
+}
+
+.cat-img-box a {
+  font-size: 1rem;
+  color: #000;  
+}
+
+.cat-img-box .cat-grey-txt {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.cat-img-txt {
+  position: relative;
+  padding: 0 5px 0 5px;
+  bottom: 8rem;
+}
+
+.cat-box-two {
+  width: 100%;
+  height: 5.6rem;
+  padding: 0;
+  background-color: rgb(233, 219, 221);
+  position: relative;
+  bottom: 8.5rem;
+}
+
+.cat-box-two h4,
+ p a {
+  color: #f00;
+  padding-left: 5px;
+}
+
+.cat-box-two img {
+  float: right;
+}
+
+
+.bullet-points li {
+  width: 100%;
+  position: relative;
+  bottom: 8.5rem ;
+  right: 1.4rem;
+  font-size: 12.9px;
+  padding: 9px;
+  color: #aaa;
+}
+
+.bullet-points {
+  padding-right: 15px;
+}
+
+.bullet-points ul {
+ list-style-type: none;
+}
+
+.bullet-points ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.bullet-points li:hover {
+  color: black;
+}
+
+
+
 
 .social-media a:hover {
   background-color: #000;
