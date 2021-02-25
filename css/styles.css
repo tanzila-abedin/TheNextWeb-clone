@@ -353,6 +353,15 @@ hr {
   color: black;
 }
 
+/* Latest-News */
+.latest-heading{
+  display: flex;
+}
+
+.latest-sentence p{
+   display: flex;
+}
+
 
 
 
