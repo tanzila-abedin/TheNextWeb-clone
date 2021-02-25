@@ -447,6 +447,19 @@ article {
   margin: 0%;
 
 }
+/* Latest Deals */
+ .deals {
+   display: flex;
+ } 
+
+ .dealsheading a{
+   color: orangered;
+ }
+
+ .dealtxt p {
+   color: black;
+ }
+
 
 .social-media a:hover {
   background-color: #000;
