@@ -1,19 +1,11 @@
-# TheNextWeb-clone
+# TheNextWeb-clone(Milestone-2)
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 > A clone website of an archived article on The Next Web to practice Responsive Web Design
 
 Mobile View
 
-![mobile view](./images/mobile-view.png)
-
-Tablet View
-
-![tablet view](./images/tablet-improved.png)
-
-Desktop View
-
-![desktop view](./images/desktop-improved.png)
+![mobile view](./images/desktop-view.png)
 
 ## Built With
 
@@ -22,7 +14,7 @@ Desktop View
 
 ## Live Demo
 
-[Live Demo Link](https://kabohajeanmark.github.io/TheNextWeb-clone/)
+[Live Demo Link](https://tanzila-abedin.github.io/TheNextWeb-clone/.)
 
 
 ## Getting Started
@@ -41,11 +33,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Kaboha Jean Mark**
+👤 **Juliana Osemeke**
 
-- GitHub: [@KabohaJeanMark](https://github.com/KabohaJeanMark)
-- Twitter: [@jean_quintus](https://twitter.com/jean_quintus)
-- LinkedIn: [Jean Mark Kaboha](https://www.linkedin.com/in/jean-mark-kaboha-software-engineer/)
+- GitHub: [@JulianaOsemeke](https://github.com/JulianaOsemeke)
+- Twitter: [@JulianaOsemeke](https://twitter.com/julianaosemeke)
+- LinkedIn: [Juliana Osemeke](www.linkedin.com/in/juliana-osemeke)
 
 👤 **Tanzila Abedin**
 
