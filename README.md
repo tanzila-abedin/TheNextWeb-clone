@@ -38,7 +38,6 @@ To get a local copy up and running follow these simple example steps.
 👤 **Tanzila Abedin**
 
 - GitHub: [@tanzila-abedin](https://github.com/tanzila-abedin)
-- Instagram: [@tanzi_abedin](https://www.instagram.com/tanzie_abedin/?hl=en)
 - LinkedIn: [Tanzila Abedin](https://www.linkedin.com/in/tanzila-abedin-331440b2/?originalSubdomain=za)
 
 
