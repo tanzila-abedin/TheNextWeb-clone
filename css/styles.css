@@ -4,6 +4,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  
 }
 
 a {
@@ -27,6 +28,7 @@ nav {
   flex-direction: column;
   padding-bottom: 0;
   z-index: 3;
+  
 }
 
 .zero-nav-line {
@@ -269,24 +271,19 @@ hr {
  padding: 10px;
 }
 
-.cat-gradient {
-
-}
-
 .cat-box-two h6 a {
   color: orangered;
 } 
-
 
 .cat-heading a {
   color:#f00;
 }
 
-.cat-img-box img{
+ .cat-img-box img{
   width: 100%;
   height: 20rem;
   padding-bottom: 0;
-}
+} 
 
 .cat-img-txt h4 {
   font-size: 0.95rem;
@@ -310,8 +307,11 @@ hr {
   bottom: 8rem;
 }
 
-.cat-img-txt p {
+.cat-img-txt h5 {
   margin: 0px;
+  font-weight: bold; 
+  font-size: 20px; 
+  color: white;
 }
 
 .cat-box-two {
@@ -331,6 +331,7 @@ hr {
 }
 
 .cat-box-two h4 {
+  margin-top: 0;
   margin-bottom: 0;
   padding-top: 8px;
 }
@@ -387,19 +388,34 @@ hr {
   align-items:center;
 }
 
-.latest-item img {
-  max-width: 100%;
-  width: 5rem;
-  height: 5rem;
-}
-
 .latest-item article h4 {
   font-size: 0.875rem;
   font-weight: 700;
 }
 
+.latest-item {
+  margin: 5px;
+}
+
+.latest-news h2 {
+  color: orangered;
+  margin-left: 8px;
+}
+
+.news-txt {
+  text-align: start;
+  margin: 0 5px;
+}
+
 .news-txt a {
   color: black;
+  font-size: 10px;
+}
+
+.news-txt ul {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .latest-item ul li {
@@ -408,22 +424,54 @@ hr {
   list-style: none;
 }
 
+.newspic img {
+  width : 110px;
+  height: 100px;
+} 
+
 /* Latest Deals */
  .deals {
   display: flex;
  } 
 
- .dealsheading a{
+ .deals-con {
+   margin: 5px;
+ }
+
+ .dealsheading a {
   color: orangered;
+  font-size: 14px;
+ }
+
+ .dealsheading h3 {
+  padding: 1rem;
+ }
+
+ .dealtxt {
+   margin: 5px;
  }
 
  .dealtxt a {
   color: black;
+  font-size: 10px;
  }
 
  .dealtxt h6 {
   color: grey;
  }
+
+ /* .deals img  {
+  width: 95%;
+  height: 60%;
+  margin: auto;
+  object-fit: cover;
+} */
+
+
+.abc img {
+  width: 110px;
+  height: 100px;
+}
 
  .hsc {
   display: flex;
@@ -444,10 +492,11 @@ hr {
                 ****** TABLET ******
     ========================================================================
 */
-@media screen and (min-width: 481px) {
-  body {
+@media screen and (min-width: 768px) {
+  
+  /* body {
     overflow-x: hidden;
-  }
+  } */
 
   .zero-nav-line {
     display: flex;
@@ -646,7 +695,7 @@ hr {
                 ****** SMALL LAPTOP SCREEN ******
     ========================================================================
 */
-@media screen and (min-width: 769px) {
+/* @media screen and (min-width: 769px) {
   body {
     overflow-x: hidden;
   }
@@ -736,7 +785,7 @@ hr {
   }
 
   /* categories */
-  .categories {
+  /* .categories {
     width: 100%;
     display: grid;
     grid-template-columns: auto auto auto ;
@@ -773,7 +822,7 @@ hr {
   }
 
   /* latest-news */
-  .news-txt {
+  /* .news-txt {
     margin: 0.5rem 0;
   }
 
@@ -790,7 +839,7 @@ hr {
     width: 100%;
     height: 7.125rem;
   }
-}
+}  */
 
 /*
     =======================================================================
