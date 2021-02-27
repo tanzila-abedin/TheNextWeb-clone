@@ -3,10 +3,6 @@
 
 > A clone website of an archived article on The Next Web to practice Responsive Web Design
 
-Mobile View
-
-![mobile view](./images/desktop-view.png)
-
 ## Built With
 
 - HTML5 & CSS3
